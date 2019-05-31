@@ -27,6 +27,12 @@
 ## Features
 
 <dl>
+  <dt>No semicolons</dt>
+  <dd>Semicolons are 99% usless, so drop I dropped them</dd>
+
+  <dt>Functional arrows preferred</dt>
+  <dd>Dropped pretty much every `function(){}` format function and replaced with `() => {}` format. Only generators use the `function*(){}` format.</dd>
+
   <dt>Quick scaffolding</dt>
   <dd>Create components, containers, routes, selectors and sagas - and their tests - right from the CLI!</dd>
 
